@@ -1,5 +1,4 @@
-# improved_overparametrization_tmlr
-Code for reproducing experiments reported in the TMLR paper _Improved Overparametrization Bounds for Global Convergence of Stochastic Gradient Descent for Shallow Neural Networks_ by B. Polaczyk and J. Cyranka [TMLR link](https://openreview.net/forum?id=RjZq6W6FoE)
+### Code for reproducing experiments reported in the TMLR paper _Improved Overparametrization Bounds for Global Convergence of Stochastic Gradient Descent for Shallow Neural Networks_ by B. Polaczyk and J. Cyranka [TMLR link](https://openreview.net/forum?id=RjZq6W6FoE)
 
 There are two scripts. The first one `grid_search.py` is producing the output data for the grid plot like in Fig.2 in the paper.
 
