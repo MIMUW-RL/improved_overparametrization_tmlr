@@ -6,7 +6,7 @@ It has several command line parameters and can be executed using for example usi
 ```
 python3 grid_search.py 10 0 BasicNet1L
 ```
-where the first parameter is the input dimension `d0` splits (for parallel computation), the second parameter is the input dimension split to be used (ranging from `0` to the first parameter value). The third parameter (either `BasicNet1L` or `BasicNet2L` defined in `architectures.py`) is the network architecture to be considered (having either single trainable layer, or two trainable layers). Refer to the paper for the details.
+where the first parameter is the input dimension `d0` splits (for parallel computation), the second parameter is the input dimension split to be used (ranging from `0` to the first parameter value). The third parameter (either `BasicNet1L` or `BasicNet2L` defined in `architectures.py` in PyTorch framework) is the network architecture to be considered (having either single trainable layer, or two trainable layers). Refer to the paper for the details.
 
 Several `csv` output files will be generated including 
 * `{modeln}_results_thr_2.5e-03_set{set}.csv` recording the flag of the loss value below `2.5e-03` after `50k` epochs for `10` independent random initializations;
