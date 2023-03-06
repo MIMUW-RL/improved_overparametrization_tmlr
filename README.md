@@ -21,6 +21,6 @@ python3 relu_region.py BasicNet1L
 ```
 where the parameter (either `BasicNet1L` or `BasicNet2L` defined in `architectures.py`) is the network architecture to be considered (having either single trainable layer, or two trainable layers). The network architecture `d0, d1 & d2` is defined within the script using lists of considered values.
 
-Several `csv` output files will be generated having names `{modeln}_d0_{d0}_d1_{d1}_d2_{d2}_*.csv`, where `modeln` is the considered network, `d0, d1 & d2` are the network parameters, and `*` is either `losses, Hdists, small_preact_cnts, Diff_norms` for each of the metric considered in the paper (reported in Fig. 3).
+Several `csv` output files will be generated having names `{modeln}_d0_{d0}_d1_{d1}_d2_{d2}_*.csv`, where `modeln` is the considered network, `d0, d1 & d2` are the network parameters, and `*` is either `losses, visitedHdists, small_preact_cnts, Diff_norms` for each of the metric considered in the paper (reported in Fig. 3).
 
 In case of further questions please reach us through e-mail.
