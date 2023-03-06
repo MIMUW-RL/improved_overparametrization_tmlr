@@ -2,7 +2,7 @@
 
 There are two scripts. The first one `grid_search.py` is producing the output data for the grid plot like in Fig.2 in the paper.
 
-It has several command line parameters and can be executed using for example
+It has several command line parameters and can be executed using for example using
 ```
 python3 grid_search.py 10 0 BasicNet1L
 ```
@@ -15,7 +15,7 @@ Several `csv` output files will be generated including
 
 The second script `relu_region.py` is producing the output data for the various metrics recorded along the training episodes as shown in Fig. 3 in the paper.
 
-It is executed 
+It is executed for example using
 ```
 python3 relu_region.py BasicNet1L
 ```
